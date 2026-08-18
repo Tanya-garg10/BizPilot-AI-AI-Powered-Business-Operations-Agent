@@ -145,6 +145,35 @@ FastAPI / Express Swagger endpoint documentation is available at `/docs` when ru
 
 ---
 
+## 🔮 Future Roadmap
+
+The following features and enhancements are planned for upcoming versions of BizPilot AI:
+
+### 🤖 AI & Agent Enhancements
+- [ ] **Voice Agent Integration** — Support for voice-based customer interactions via Google Gemini Live API.
+- [ ] **Multi-language Support** — Detect and respond in the customer's preferred language (Hindi, Spanish, French, etc.).
+- [ ] **Sentiment Analysis** — Real-time emotional scoring to prioritize distressed or high-urgency leads.
+- [ ] **Agent Memory** — Persistent long-term memory across sessions using Firestore for deeper personalization.
+
+### 📱 Platform Integrations
+- [ ] **WhatsApp Business API** — Native WhatsApp chat integration for real-world deployment.
+- [ ] **Google Calendar Sync** — Auto-sync confirmed appointments to the business owner's Google Calendar.
+- [ ] **Email Follow-ups** — Automated email sequences via Gmail API or SendGrid for lead nurturing.
+- [ ] **CRM Integrations** — Push qualified leads directly to HubSpot, Salesforce, or Zoho CRM.
+
+### 📊 Analytics & Reporting
+- [ ] **Advanced Conversion Funnel** — Visual drop-off analysis at each stage of the lead pipeline.
+- [ ] **Revenue Forecasting** — AI-driven revenue predictions based on historical lead conversion rates.
+- [ ] **Exportable Reports** — PDF/CSV export of leads, appointments, and payment summaries.
+- [ ] **Custom KPI Dashboards** — Business owners can configure their own metrics and alerts.
+
+### 🔐 Security & Scale
+- [ ] **Role-Based Access Control (RBAC)** — Staff-level access with restricted permissions.
+- [ ] **Multi-tenant Architecture** — Support for multiple businesses on a single deployment.
+- [ ] **SOC 2 Compliance** — Data encryption, audit logs, and compliance reporting.
+
+---
+
 ## 💡 Key Hackathon Highlights
 
 1. **Calculated Metrics**: All statistics on the Owner Dashboard are derived dynamically from stored Firestore collections (`leads`, `customers`, `conversations`, `appointments`, `agent_runs`, `payments`).
