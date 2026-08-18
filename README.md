@@ -179,3 +179,55 @@ The following features and enhancements are planned for upcoming versions of Biz
 1. **Calculated Metrics**: All statistics on the Owner Dashboard are derived dynamically from stored Firestore collections (`leads`, `customers`, `conversations`, `appointments`, `agent_runs`, `payments`).
 2. **Transparent Agent Execution**: Every AI decision generates explicit audit logs in `agent_runs` displayed in the **LIVE AI ACTIVITY** feed.
 3. **No Fake Payments**: Stripe links require real payments to transition status to `paid`.
+
+---
+
+## 🤝 Contributing
+
+Contributions are welcome! If you'd like to improve BizPilot AI, follow these steps:
+
+1. **Fork** the repository
+2. **Create** a new branch
+   ```bash
+   git checkout -b feature/your-feature-name
+   ```
+3. **Make** your changes and commit
+   ```bash
+   git commit -m "feat: add your feature description"
+   ```
+4. **Push** to your fork
+   ```bash
+   git push origin feature/your-feature-name
+   ```
+5. **Open** a Pull Request on GitHub
+
+### Guidelines
+- Follow existing code style and TypeScript conventions.
+- Write clear, descriptive commit messages.
+- Test your changes locally before submitting a PR.
+- For major changes, open an issue first to discuss what you'd like to change.
+
+---
+
+## 🛠️ Made With
+
+BizPilot AI was built with love using the following technologies:
+
+| Technology | Purpose |
+|---|---|
+| [![Google Gemini](https://img.shields.io/badge/Google%20Gemini-2.5%20Flash-4285F4?logo=google&logoColor=white)](https://deepmind.google/technologies/gemini/) | Core AI engine powering all 5 agents |
+| [![React](https://img.shields.io/badge/React-19-61DAFB?logo=react&logoColor=black)](https://react.dev/) | Frontend UI framework |
+| [![TypeScript](https://img.shields.io/badge/TypeScript-5-3178C6?logo=typescript&logoColor=white)](https://www.typescriptlang.org/) | Type-safe development |
+| [![Vite](https://img.shields.io/badge/Vite-6-646CFF?logo=vite&logoColor=white)](https://vitejs.dev/) | Lightning-fast build tool |
+| [![Firebase](https://img.shields.io/badge/Firestore-Cloud-FFCA28?logo=firebase&logoColor=black)](https://firebase.google.com/) | Real-time database & storage |
+| [![Stripe](https://img.shields.io/badge/Stripe-Payments-635BFF?logo=stripe&logoColor=white)](https://stripe.com/) | Payment processing & webhooks |
+| [![Google Cloud](https://img.shields.io/badge/Google%20Cloud%20Run-Deploy-4285F4?logo=googlecloud&logoColor=white)](https://cloud.google.com/run) | Serverless deployment |
+| [![FastAPI](https://img.shields.io/badge/FastAPI-Python-009688?logo=fastapi&logoColor=white)](https://fastapi.tiangolo.com/) | Python backend API |
+| [![Node.js](https://img.shields.io/badge/Node.js-Express-339933?logo=node.js&logoColor=white)](https://nodejs.org/) | Full-stack server runtime |
+
+---
+
+<div align="center">
+  <p>Built with ❤️ for the <strong>Build with Gemini XPRIZE Hackathon</strong></p>
+  <p>⭐ Star this repo if you found it useful!</p>
+</div>
