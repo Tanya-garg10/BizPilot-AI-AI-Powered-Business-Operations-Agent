@@ -1,0 +1,6 @@
+{
+  "name": "BizPilot AI",
+  "description": "AI-powered operations platform for small businesses to qualify leads, book appointments, automate follow-ups, and convert customers.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
