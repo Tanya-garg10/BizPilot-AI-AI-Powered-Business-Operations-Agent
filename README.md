@@ -3,8 +3,6 @@
 > **Build with Gemini XPRIZE Submission**  
 > BizPilot AI is an AI-powered operations platform for small businesses that turns customer conversations into qualified leads, appointments, automated follow-ups, and conversion opportunities.
 
----
-
 ## 🚀 Problem
 
 Small business owners (such as SkillBridge Academy, local tutors, service providers, clinics, and consultants) lose over **60% of prospective customers** due to:
@@ -13,15 +11,11 @@ Small business owners (such as SkillBridge Academy, local tutors, service provid
 3. **Manual appointment scheduling friction** leading to lead drop-off before counselling sessions.
 4. **Follow-up fatigue**, missing timely reminders for interested prospects.
 
----
-
 ## ✨ Solution
 
 **BizPilot AI** introduces a 5-Agent logical AI workforce powered by **Google Gemini 2.5** and **Cloud Firestore**:
 
-$$\text{Customer Message} \longrightarrow \text{Gemini AI Engine} \longrightarrow \text{Intent \& Score} \longrightarrow \text{Firestore State} \longrightarrow \text{Action \& Dashboard}$$
-
----
+$$\text{Customer Message} \longrightarrow \text{Gemini AI Engine} \longrightarrow \text{Intent \ Score} \longrightarrow \text{Firestore State} \longrightarrow \text{Action \ Dashboard}$$
 
 ## 🤖 AI Agent Architecture
 
@@ -33,8 +27,6 @@ BizPilot AI executes a lightweight, robust 5-agent pipeline:
 4. **Follow-up Agent**: Detects required follow-ups and queues personalized curriculum reminders.
 5. **Business Analyst Agent**: Aggregates stored operational data and generates actionable conversion insights.
 
----
-
 ## 🛠️ Tech Stack
 
 - **Frontend**: React 19, Vite, TypeScript, Tailwind CSS v4, Lucide Icons, Motion.
@@ -44,8 +36,6 @@ BizPilot AI executes a lightweight, robust 5-agent pipeline:
 - **Database**: Google Cloud Firestore.
 - **Payments**: Stripe API & Webhooks.
 - **Deployment**: Docker, Google Cloud Run, Cloud Build (`cloudbuild.yaml`).
-
----
 
 ## 📂 Project Structure
 
@@ -86,8 +76,6 @@ BizPilot AI executes a lightweight, robust 5-agent pipeline:
 └── README.md
 ```
 
----
-
 ## ⚙️ Local Setup & Environment Variables
 
 Create a `.env` file at the root (use `.env.example` as a template):
@@ -109,8 +97,6 @@ npm run dev
 ```
 
 The application will run on `http://localhost:3000`.
-
----
 
 ## ☁️ Google Cloud Run Deployment Instructions
 
@@ -137,13 +123,9 @@ gcloud run deploy bizpilot-ai \
   --set-env-vars GEMINI_API_KEY=$GEMINI_API_KEY
 ```
 
----
-
 ## 📜 API Documentation
 
 FastAPI / Express Swagger endpoint documentation is available at `/docs` when running the application.
-
----
 
 ## 🔮 Future Roadmap
 
@@ -172,16 +154,6 @@ The following features and enhancements are planned for upcoming versions of Biz
 - [ ] **Multi-tenant Architecture** — Support for multiple businesses on a single deployment.
 - [ ] **SOC 2 Compliance** — Data encryption, audit logs, and compliance reporting.
 
----
-
-## 💡 Key Hackathon Highlights
-
-1. **Calculated Metrics**: All statistics on the Owner Dashboard are derived dynamically from stored Firestore collections (`leads`, `customers`, `conversations`, `appointments`, `agent_runs`, `payments`).
-2. **Transparent Agent Execution**: Every AI decision generates explicit audit logs in `agent_runs` displayed in the **LIVE AI ACTIVITY** feed.
-3. **No Fake Payments**: Stripe links require real payments to transition status to `paid`.
-
----
-
 ## 🤝 Contributing
 
 Contributions are welcome! If you'd like to improve BizPilot AI, follow these steps:
@@ -207,8 +179,6 @@ Contributions are welcome! If you'd like to improve BizPilot AI, follow these st
 - Test your changes locally before submitting a PR.
 - For major changes, open an issue first to discuss what you'd like to change.
 
----
-
 ## 🛠️ Made With
 
 BizPilot AI was built with love using the following technologies:
@@ -224,8 +194,6 @@ BizPilot AI was built with love using the following technologies:
 | [![Google Cloud](https://img.shields.io/badge/Google%20Cloud%20Run-Deploy-4285F4?logo=googlecloud&logoColor=white)](https://cloud.google.com/run) | Serverless deployment |
 | [![FastAPI](https://img.shields.io/badge/FastAPI-Python-009688?logo=fastapi&logoColor=white)](https://fastapi.tiangolo.com/) | Python backend API |
 | [![Node.js](https://img.shields.io/badge/Node.js-Express-339933?logo=node.js&logoColor=white)](https://nodejs.org/) | Full-stack server runtime |
-
----
 
 <div align="center">
   <p>Built with ❤️ for the <strong>Build with Gemini XPRIZE Hackathon</strong></p>
